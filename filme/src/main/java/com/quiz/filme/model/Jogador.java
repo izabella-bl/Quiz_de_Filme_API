@@ -20,7 +20,5 @@ public class Jogador {
     private int id;
     private String nameUser;
     private Long pontos;
-    private Long experiencia;
-
-    
+      
 }

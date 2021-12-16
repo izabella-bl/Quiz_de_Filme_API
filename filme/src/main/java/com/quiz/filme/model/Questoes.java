@@ -12,15 +12,13 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "FILME")
-public class Filme {
+@Table(name = "Questoes")
+public class Questoes {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String urlImagem;
-    private int nivel;
-    private String pergunta;
     private String alternativaA;
     private String alternativaB;
     private String alternativaC;

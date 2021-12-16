@@ -1,8 +1,10 @@
 package com.quiz.filme.API;
 
 
-import com.quiz.filme.model.Filme;
-import com.quiz.filme.repository.FilmeRepository;
+import java.util.List;
+
+import com.quiz.filme.model.Questoes;
+import com.quiz.filme.repository.QuestoesRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -15,19 +17,24 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/quiz/filme")
-public class FilmeApi {
+@RequestMapping("/quiz/questoes")
+public class QuestoesApi {
 
     @Autowired
-    private FilmeRepository repository;
+    private QuestoesRepository repository;
 
+    @GetMapping
+    public List<Questoes> questoes (){
+       return (List<Questoes>)repository.findAll();     
+    }
+    
     @GetMapping("/{id}")  
-    public Filme buscarPorId(@PathVariable int id){
+    public Questoes buscarPorId(@PathVariable int id){
         return repository.findById(id).get();        
     }
 
     @PostMapping  
-    public String salvar(@RequestBody Filme model){
+    public String salvar(@RequestBody Questoes model){
         repository.save(model);
         return "salvo com sucesso";
     }
@@ -39,7 +46,7 @@ public class FilmeApi {
     }
 
     @PutMapping("/{id}")    
-    public String update(@RequestBody Filme model, @PathVariable int id){
+    public String update(@RequestBody Questoes model, @PathVariable int id){
         if(model.getId() == id){
             repository.save(model);
             return "alterado com sucesso";

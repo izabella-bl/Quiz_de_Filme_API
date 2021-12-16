@@ -24,7 +24,7 @@ public class JogadorApi {
     private JogadorRepository repository;
 
     @GetMapping
-    public List<Jogador> jogadores (Long pontos){
+    public List<Jogador> jogadores ( ){
        return (List<Jogador>)repository.findAll();     
     }
 
