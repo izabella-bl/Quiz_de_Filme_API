@@ -23,4 +23,5 @@ public class Questoes {
     private String alternativaB;
     private String alternativaC;
     private String alternativaD;
+    private String resposta;
 }
