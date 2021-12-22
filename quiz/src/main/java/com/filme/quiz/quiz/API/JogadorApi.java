@@ -1,9 +1,9 @@
-package com.quiz.filme.API;
+package com.filme.quiz.quiz.API;
 
 import java.util.List;
 
-import com.quiz.filme.model.Jogador;
-import com.quiz.filme.repository.JogadorRepository;
+import com.filme.quiz.quiz.model.Jogador;
+import com.filme.quiz.quiz.repository.JogadorRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;

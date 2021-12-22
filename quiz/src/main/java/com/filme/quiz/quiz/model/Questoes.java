@@ -1,4 +1,4 @@
-package com.quiz.filme.model;
+package com.filme.quiz.quiz.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,13 +12,16 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "Jogador")
-public class Jogador {
-
+@Table(name = "Questoes")
+public class Questoes {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String nameUser;
-    private Long pontos;
-      
+    private String urlImagem;
+    private String alternativaA;
+    private String alternativaB;
+    private String alternativaC;
+    private String alternativaD;
+    private String resposta;
 }

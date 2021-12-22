@@ -1,4 +1,4 @@
-package com.quiz.filme.config;
+package com.filme.quiz.quiz.config;
 
 import java.util.Arrays;
 

@@ -1,8 +1,8 @@
-package com.quiz.filme.repository;
+package com.filme.quiz.quiz.repository;
 
 import java.util.Optional;
 
-import com.quiz.filme.model.Jogador;
+import com.filme.quiz.quiz.model.Jogador;
 
 import org.springframework.data.domain.Sort;
 import org.springframework.data.repository.PagingAndSortingRepository;

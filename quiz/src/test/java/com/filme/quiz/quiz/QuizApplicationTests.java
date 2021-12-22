@@ -1,10 +1,10 @@
-package com.quiz.filme;
+package com.filme.quiz.quiz;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FilmeApplicationTests {
+class QuizApplicationTests {
 
 	@Test
 	void contextLoads() {

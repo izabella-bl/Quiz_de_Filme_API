@@ -1,13 +1,13 @@
-package com.quiz.filme;
+package com.filme.quiz.quiz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FilmeApplication {
+public class QuizApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FilmeApplication.class, args);
+		SpringApplication.run(QuizApplication.class, args);
 	}
 
 }
