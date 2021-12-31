@@ -1,0 +1,137 @@
+[
+	{
+		"id": 1,
+		"urlImagem": "https://raw.githubusercontent.com/izabella-bl/Quiz_de_Filme_API/main/cenarios/1.jpg",
+		"alternativaA": "Amityville",
+		"alternativaB": "A Maldição da Casa Winchester",
+		"alternativaC": "It - A Coisa",
+		"alternativaD": "Annabelle",
+		"resposta": "It - A Coisa"
+	},
+	{
+		"id": 2,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/2.jpg?raw=true",
+		"alternativaA": "Thor",
+		"alternativaB": "O Hobbit",
+		"alternativaC": "Pantera Negra",
+		"alternativaD": "Star Wars",
+		"resposta": "Thor"
+	},
+	{
+		"id": 3,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/3.jpg?raw=true",
+		"alternativaA": "Corredor Assombrado",
+		"alternativaB": "invocação do mal 2",
+		"alternativaC": "A Freira Maldita",
+		"alternativaD": "O iluminado",
+		"resposta": "O iluminado"
+	},
+	{
+		"id": 4,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/4.jpg?raw=true",
+		"alternativaA": "Branca de Neve e os Sete Anões",
+		"alternativaB": "Shrek",
+		"alternativaC": "Robin Hood",
+		"alternativaD": "A Bela Adormecida",
+		"resposta": "Shrek"
+	},
+	{
+		"id": 5,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/5.jpg?raw=true",
+		"alternativaA": "Camp Rock",
+		"alternativaB": "Madman ",
+		"alternativaC": "Sexta-feira 13",
+		"alternativaD": "O Pesadelo ",
+		"resposta": "Sexta-feira 13"
+	},
+	{
+		"id": 6,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/6.jpg?raw=true",
+		"alternativaA": "O Poderoso Chefão",
+		"alternativaB": "O Grande Gatsby",
+		"alternativaC": "Histórias Cruzadas",
+		"alternativaD": "A Teoria de Tudo",
+		"resposta": "O Poderoso Chefão"
+	},
+	{
+		"id": 7,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/7.jpg?raw=true",
+		"alternativaA": "O Gato",
+		"alternativaB": "O grinch",
+		"alternativaC": "A Fantástica Fábrica de Chocolate",
+		"alternativaD": "As aventuras de lavagirl e sharkboy",
+		"resposta": "A Fantástica Fábrica de Chocolate"
+	},
+	{
+		"id": 8,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/8.jpg?raw=true",
+		"alternativaA": "O Diário da Princesa",
+		"alternativaB": "As Patricinhas de Beverly Hills",
+		"alternativaC": "Meninas Malvadas",
+		"alternativaD": "Legalmente Loira",
+		"resposta": "Meninas Malvadas"
+	},
+	{
+		"id": 9,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/9.jpg?raw=true",
+		"alternativaA": "Branca de Neve e os Sete Anões",
+		"alternativaB": "A Bela Adormecida",
+		"alternativaC": "Cinderela ",
+		"alternativaD": "Pinóquio",
+		"resposta": "Branca de Neve e os Sete Anões"
+	},
+	{
+		"id": 10,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/11.jpg?raw=true",
+		"alternativaA": "Toy Story",
+		"alternativaB": "Divertida Mente",
+		"alternativaC": "Os Incríveis",
+		"alternativaD": "Monstros S.A.",
+		"resposta": "Monstros S.A."
+	},
+	{
+		"id": 11,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/12.jpg?raw=true",
+		"alternativaA": "Divergente",
+		"alternativaB": "Maze Runner",
+		"alternativaC": "Jogos Vorazes",
+		"alternativaD": "Matrix",
+		"resposta": "Jogos Vorazes"
+	},
+	{
+		"id": 12,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/10.jpg?raw=true",
+		"alternativaA": "O Exorcista",
+		"alternativaB": "Coringa",
+		"alternativaC": "Sempre ao seu lado",
+		"alternativaD": "Homem-Aranha",
+		"resposta": "Coringa"
+	},
+	{
+		"id": 13,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/13.jpg?raw=true",
+		"alternativaA": "Animais Fantásticos",
+		"alternativaB": "Harry Potter",
+		"alternativaC": "O Lar das Crianças Peculiares ",
+		"alternativaD": "O Orfanato",
+		"resposta": "Harry Potter"
+	},
+	{
+		"id": 14,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/14.jpg?raw=true",
+		"alternativaA": "Kung Fu Panda",
+		"alternativaB": "Avatar: A Lenda de Aang",
+		"alternativaC": "Raya e o Último Dragão",
+		"alternativaD": "Mulan ",
+		"resposta": "Mulan "
+	},
+	{
+		"id": 15,
+		"urlImagem": "https://github.com/izabella-bl/Quiz_de_Filme_API/blob/main/cenarios/15.jpg?raw=true",
+		"alternativaA": "O Senhor dos Anéis",
+		"alternativaB": "Aquaman",
+		"alternativaC": "Thor",
+		"alternativaD": "O Hobbit",
+		"resposta": "O Senhor dos Anéis"
+	}
+]
